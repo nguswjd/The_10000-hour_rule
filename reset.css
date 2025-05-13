@@ -12,9 +12,8 @@
 }
 
 .sr-only {
-  display: none;
+  display: none !important;
 }
-
 
 @font-face {
   font-family: 'GmarketSansMedium';
@@ -24,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'OTEnjoystoriesBA';
+  font-family: 'tvN Enjoystories';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
   font-weight: normal;
   font-style: normal;

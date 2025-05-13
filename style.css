@@ -1,6 +1,7 @@
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 
 body {
+  position: relative;
   background-color: #5B2386;
   width: 100vw;
   height: 100vh;
@@ -8,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   gap: 80px;
 }
@@ -21,10 +23,6 @@ header {
   gap: 52px;
 }
 
-.logo {
-  margin: 0 0 0 80px;
-}
-
 .logo img {
   width: 40vw;
 }
@@ -32,7 +30,7 @@ header {
 header p {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'OTEnjoystoriesBA', serif;
+  font-family: 'tvN Enjoystories', serif;
   text-align: center;
   color: #F5DF4D;
 }
@@ -162,6 +160,51 @@ footer p{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 12px;
   margin-bottom: 160px;
+}
+
+.ad-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  padding: 80px 146px;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 4px 4px 30px 0px #00000026;
+}
+
+.ad-overlay p {
+  color: #5B2386;
+  text-align: center;
+  font-family: "tvN Enjoystories";
+  font-style: normal;
+  line-height: normal;
+  font-weight: 700;
+}
+
+.ad-overlay p:first-child {
+  font-size: 96px;
+}
+
+.ad-overlay p:last-child {
+  font-size: 36px;
+}
+
+.ad-overlay a {
+  margin-top: 40px;
+  padding: 20px 50px;
+  border-radius: 12px;
+  background: #FCEE21;color: #5B2386;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  box-shadow: 2px 4px 10px 0px #00000026;
 }
 
 @media (max-width: 800px) {
