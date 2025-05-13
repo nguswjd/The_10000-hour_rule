@@ -1,20 +1,33 @@
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tvN Enjoystories';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   position: relative;
   background-color: #5B2386;
-  /* width: 100vw; */
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 
   gap: 80px;
 }
 
 header {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +43,7 @@ header p {
   font-size: 36px;
   font-weight: 700;
   font-family: 'tvN Enjoystories', serif;
-  text-align: center;
+  /* text-align: center; */
   color: #F5DF4D;
 }
 
@@ -41,29 +54,30 @@ main {
   align-items: center;
 }
 
-main section:first-child {
+.definition {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
 }
 
-main section:first-child img {
+.definition img {
   width: 36px;
   height: 32px;
 }
 
-main h2, main span {
+.definition p,
+.definition span {
   text-align: center;
   color: #fff;
 }
 
-main h2 {
+.definition p {
   font-weight: 700;
   font-size: 24px;
 }
 
-main span {
+.definition span {
   font-size: 18px;
 }
 
@@ -240,7 +254,6 @@ footer p{
 
 @media (max-width: 800px) {
   .logo img {
-    margin-top: 40px;
     width: 278px;
   }
   
@@ -252,19 +265,20 @@ footer p{
     gap: 52px;
   }
 
-  main h2 {
+  .definition p {
     margin-bottom: 8px;
   }
 
-  main h2, main span {
+  .definition p,
+  .definition span {
     font-size: 14px;
   }
 
-  main section:first-child {
+  .definition{
     gap: 0;
   }
 
-  main section:first-child img {
+  .definition img {
     width: 20px;
     height: 18px;
   }
@@ -277,7 +291,6 @@ footer p{
   .goal-survey p input {
     width: 86px;
     height: 14px;
-    /* padding: 12px 40px; */
     font-size: 14px;
   }
 
