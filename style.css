@@ -1,19 +1,28 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
 body {
   background-color: #5B2386;
   width: 100vw;
   height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 80px;
 }
 
 header {
   width: 100%;
-  height: 630px;
+  margin-top: 199px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 52px;
 }
 
 .logo {
-  margin: 100px 0;
+  margin: 0 0 0 80px;
 }
 
 .logo img {
@@ -28,6 +37,133 @@ header p {
   color: #F5DF4D;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+main h2, main span {
+  text-align: center;
+  color: #fff;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+main span {
+  font-size: 18px;
+}
+
+.goal-survey {
+  text-align: center;
+}
+
+.goal-survey p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.goal-survey p input {
+  width: 148px;
+  height: 24px;
+  padding: 16px 40px;
+  margin: 10px 20px;
+  border-radius: 8px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.goal-survey button {
+  background-color: #FCEE21;
+  padding: 20px 50px;
+  border-radius: 12px;
+  box-shadow: 2px 4px 10px #00000026;
+  color: #5B2386;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 120px;
+  position: relative;
+}
+
+.goal-survey button img {
+  position: absolute;
+  transform: translate(90%);
+}
+
+.result {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.result p{
+  color: #fff;
+  font-size: 24px;
+  line-height: 72px;
+
+  gap: 12px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+} 
+
+.result p strong{
+  color: #fff;
+  font-size: 72px;
+} 
+
+.link-share {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.link-share li {
+  border-radius: 12px;
+  padding: 20px 50px;
+}
+
+.link-share li a{
+  font-size: 24px;
+  font-weight: 500;
+  color: #5B2386;
+}
+
+.link-share li:first-child {
+  background-color: #FCEE21;
+}
+
+.link-share li:last-child {
+  background-color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo {
+  margin-top: 40px;
+}
+
+.footer-logo img {
+  width: 168px;
+}
+
+footer p{
+  color: #fff;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  margin-bottom: 160px;
+}
+
 @media (max-width: 800px) {
   .logo {
     margin: 40px 0;
@@ -38,6 +174,38 @@ header p {
   }
   
   header p {
+    font-size: 24px;
+  }
+
+  main h2, main span {
+    font-size: 14px;
+  }
+
+  .goal-survey p {
+    font-size: 14px;
+  }
+
+  .goal-survey p input {
+    width: 76px;
+    height: 14px;
+    padding: 12px 40px;
+    font-size: 14px;
+  }
+
+  .goal-survey button {
+    font-size: 14px;
+  }
+
+  .result {
+    gap: 16px;
+  }
+
+  .result p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .result p strong {
     font-size: 24px;
   }
 }
