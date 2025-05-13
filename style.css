@@ -3,8 +3,7 @@
 body {
   position: relative;
   background-color: #5B2386;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
 
   display: flex;
   flex-direction: column;
@@ -16,7 +15,6 @@ body {
 
 header {
   width: 100%;
-  margin-top: 199px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +22,7 @@ header {
 }
 
 .logo img {
+  margin-top: 20%;
   width: 40vw;
 }
 
@@ -39,6 +38,19 @@ main {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  align-items: center;
+}
+
+main section:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+main section:first-child svg {
+  width: 36px;
+  height: 32px;
 }
 
 main h2, main span {
@@ -200,7 +212,8 @@ footer p{
   margin-top: 40px;
   padding: 20px 50px;
   border-radius: 12px;
-  background: #FCEE21;color: #5B2386;
+  background: #FCEE21;
+  color: #5B2386;
   text-align: center;
   font-size: 24px;
   font-weight: 500;
@@ -208,11 +221,8 @@ footer p{
 }
 
 @media (max-width: 800px) {
-  .logo {
-    margin: 40px 0;
-  }
-
   .logo img {
+    margin-top: 40px;
     width: 278px;
   }
   
@@ -220,8 +230,21 @@ footer p{
     font-size: 24px;
   }
 
+  main {
+    gap: 40px;
+  }
+
   main h2, main span {
     font-size: 14px;
+  }
+
+  main section:first-child {
+    gap: 0;
+  }
+
+  main section:first-child svg {
+    width: 20px;
+    height: 18px;
   }
 
   .goal-survey p {
@@ -237,6 +260,7 @@ footer p{
 
   .goal-survey button {
     font-size: 14px;
+    margin-top: 80px;
   }
 
   .result {
@@ -250,6 +274,45 @@ footer p{
 
   .result p strong {
     font-size: 24px;
+  }
+
+  .link-share {
+    gap: 8px;
+  }
+
+  .link-share li {
+    padding: 16px 24px;
+  }
+
+  .link-share li a {
+    font-size: 14px;
+  }
+
+  .footer {
+    gap: 12px;
+  }
+
+  .footer-logo img {
+    width: 118px;
+  }
+  
+  footer p{
+    font-size: 9px;
+    margin-bottom: 80px;
+  }
+
+  .ad-overlay p:first-child {
+    font-size: 54px;
+  }
+
+  .ad-overlay img {
+    width: 240px;
+    height: 188px;
+  }
+
+  .ad-overlay a {
+    margin-top: 24px;
+    font-size: 14px;
   }
 }
 
