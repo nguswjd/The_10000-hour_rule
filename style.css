@@ -228,9 +228,14 @@ footer p{
   background: #FCEE21;
   color: #5B2386;
   text-align: center;
+  box-shadow: 2px 4px 10px 0px #00000026;
+}
+
+.ad-overlay a ,
+.ad-overlay span {
+  width: 410px;
   font-size: 24px;
   font-weight: 500;
-  box-shadow: 2px 4px 10px 0px #00000026;
 }
 
 @media (max-width: 800px) {
@@ -321,21 +326,40 @@ footer p{
     margin-bottom: 80px;
   }
 
-  .ad-overlay p:first-child {
-    font-size: 54px;
-  }
-
   .ad-overlay img {
     width: 240px;
     height: 188px;
   }
 
+  .ad-overlay {
+    width: 240px;
+    padding: 40px 42px;
+  }
+
   .ad-overlay a {
+    padding: 20px 0;
     margin-top: 24px;
+  }
+
+  .ad-overlay a,
+  .ad-overlay span  {
+    width: 240px;
     font-size: 14px;
+  }
+
+  .ad-overlay p:first-child {
+    font-size: 64px;
+  }
+
+  .ad-overlay p:nth-child(2) {
+    font-size: 36px;
   }
 
   .line-break {
     display: inline-block;
+  }
+
+  .sr-noword {
+    display: none;
   }
 }
