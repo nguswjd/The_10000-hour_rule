@@ -18,14 +18,10 @@
 
     <main>
       <section>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
-          <path d="M0 18H8.31579V9.46789H4.52632C4.52632 6.66055 6.15789 4.62385 8.94737 4.34862V0C3.21053 0.495413 0 5.00918 0 10.8991V18ZM11.0526 18H19.3684V9.46789H15.5789C15.5789 6.66055 17.2105 4.62385 20 4.34862V0C14.2632 0.495413 11.0526 5.00918 11.0526 10.8991V18Z" fill="#8443B6"/>
-        </svg>
+        <img src="image/“.png" alt="">
         <h2>1만 시간의 법칙<span>은<br> 어떤 분야의 전문가가 되기 위해서는<br> 최소한 1만 시간의 훈련이 필요하다는 법칙이다.</span>
         </h2>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
-        <path d="M8.94737 7.10092V0H0.631579V8.53211H4.42105C4.42105 11.3395 2.78947 13.3761 0 13.6514V18C5.73684 17.5046 8.94737 12.9908 8.94737 7.10092ZM20 7.10092V0H11.6842V8.53211H15.4737C15.4737 11.3395 13.8421 13.3761 11.0526 13.6514V18C16.7895 17.5046 20 12.9908 20 7.10092Z" fill="#8443B6"/>
-      </svg>
+        <img src="image/”.png" alt="">
       </section>
 
       <section class="goal-survey">
@@ -37,12 +33,15 @@
           </p>
           
           <p>그래서 앞으로 매일 하루에
-            <label for="hour"></label>
-            <input type="text" id="hour" name="hour" placeholder="예&#41;5시간">시간씩 훈련할 것이다.
+            <span class="line-break">
+              <label for="hour"></label>
+              <input type="text" id="hour" name="hour" placeholder="예&#41;5시간">시간씩 훈련할 것이다.
+            </span>
+            
           </p>
 
           <button type="submit">
-            나는 며칠 동안 훈련을 해야 1만 시간이 될까?
+            나는 며칠 동안 훈련을 해야 <span class="line-break">1만 시간이 될까?</span>
             <img src="image/icon.png" alt="폼 제출하기">
           </button>
         </form>
@@ -75,14 +74,17 @@
       <p>본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 위니브에 있습니다.<br>
         수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.</p>
     </footer>
+    
+    <section class="sr-only ad-overlay-background">
+      <h2 class="sr-only">훈련 바로 가기 광고창</h2>
+      <div class="ad-overlay">
+        <p>화이팅!!♥♥♥</p>
+        <p>당신의 꿈을 응원합니다.</p>
 
-    <div class="sr-only ad-overlay">
-      <p>화이팅!!♥♥♥</p>
-      <p>당신의 꿈을 응원합니다.</p>
+        <img src="image/liket-img.png" alt="응원하고 있는 사자 캐릭터 라이캣">
 
-      <img src="image/liket-img.png" alt="응원하고 있는 사자 캐릭터 라이캣">
-
-      <a href="#">종료하고 진짜 훈련하러 가기 GO!GO!</a>
-    </div>
-</body>
+        <a href="#">종료하고 진짜 훈련하러 가기 GO!GO!</a>
+      </div>
+    </section>
+  </body>
 </html>
