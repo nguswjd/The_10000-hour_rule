@@ -21,13 +21,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 
   gap: 80px;
 }
 
 header {
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,15 +41,14 @@ header p {
   font-size: 36px;
   font-weight: 700;
   font-family: 'tvN Enjoystories', serif;
-  /* text-align: center; */
   color: #F5DF4D;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  gap: 100px;
   align-items: center;
+  gap: 100px;
 }
 
 .definition {
@@ -61,24 +58,16 @@ main {
   gap: 20px;
 }
 
-.definition img {
-  width: 36px;
-  height: 32px;
-}
-
 .definition p,
-.definition span {
+.definition dfn {
   text-align: center;
   color: #fff;
-}
-
-.definition p {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
 }
 
-.definition span {
-  font-size: 18px;
+.definition dfn {
+  font-size: 24px;
 }
 
 .goal-survey {
@@ -86,7 +75,7 @@ main {
 }
 
 .goal-survey p,
-.goal-survey span {
+.goal-survey p span {
   color: #fff;
   font-size: 24px;
 }
@@ -94,28 +83,32 @@ main {
 .goal-survey p input {
   width: 148px;
   height: 24px;
+
   padding: 16px 40px;
   margin: 10px 10px;
   border-radius: 8px;
+  
   font-size: 24px;
   text-align: center;
 }
 
-.goal-survey button{
-  background-color: #FCEE21;
-  padding: 20px 50px;
-  border-radius: 12px;
-  box-shadow: 2px 4px 10px #00000026;
-  color: #5B2386;
-  font-weight: 500;
-  font-size: 24px;
-  margin-top: 120px;
-
-  position: relative;
-}
-
+.goal-survey button,
 .goal-survey button span {
   color: #5B2386;
+
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.goal-survey button{
+  margin-top: 120px;
+  border-radius: 12px;
+  padding: 20px 50px;
+
+  box-shadow: 2px 4px 10px #00000026;
+  background-color: #FCEE21;
+
+  position: relative;
 }
 
 .goal-survey button img {
@@ -265,15 +258,6 @@ footer p{
     gap: 52px;
   }
 
-  .definition p {
-    margin-bottom: 8px;
-  }
-
-  .definition p,
-  .definition span {
-    font-size: 14px;
-  }
-
   .definition{
     gap: 0;
   }
@@ -283,8 +267,17 @@ footer p{
     height: 18px;
   }
 
+  .definition p {
+    margin-bottom: 8px;
+  }
+
+  .definition p,
+  .definition dfn {
+    font-size: 14px;
+  }
+
   .goal-survey p,
-  .goal-survey span {
+  .goal-survey p span {
     font-size: 14px;
   }
 
@@ -294,8 +287,12 @@ footer p{
     font-size: 14px;
   }
 
-  .goal-survey button {
+  .goal-survey button,
+  .goal-survey button span {
     font-size: 14px;
+  }
+
+  .goal-survey button {
     width: 240px;
     margin-top: 80px;
     margin-bottom: 16px;
