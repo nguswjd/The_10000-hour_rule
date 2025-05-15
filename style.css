@@ -183,9 +183,9 @@ footer p{
 }
 
 .ad-overlay-background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   background-color: #0000008a;
 }
 
@@ -197,7 +197,10 @@ footer p{
 
   display: flex;
   flex-direction: column;
-  padding: 80px 146px;
+  width: clamp(600px, 50% ,800px);
+  height: 816px;
+
+  justify-content: center;
   align-items: center;
   gap: 20px;
 
@@ -213,11 +216,7 @@ footer p{
 .ad-overlay p,
 .ad-overlay .sr-noword  {
   color: #5B2386;
-  text-align: center;
   font-family: "tvN Enjoystories";
-  font-style: normal;
-  line-height: normal;
-  font-weight: 700;
 }
 
 .ad-overlay p:first-child,
@@ -353,7 +352,8 @@ footer p{
   }
 
   .ad-overlay {
-    width: 240px;
+    width: clamp(240px, 50% ,600px);
+    height: 416px;
     padding: 40px 42px;
   }
 
