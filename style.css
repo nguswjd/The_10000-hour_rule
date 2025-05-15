@@ -291,6 +291,7 @@ footer p{
   .goal-survey p input {
     width: 86px;
     height: 14px;
+    padding: 12px 40px;
     font-size: 14px;
   }
 
@@ -305,6 +306,11 @@ footer p{
     margin-bottom: 16px;
   }
 
+  .goal-survey button img {
+    width: 43px;
+    right: -5%;
+  }
+
   .result {
     gap: 16px;
   }
@@ -316,6 +322,7 @@ footer p{
 
   .result p strong {
     font-size: 24px;
+    font-weight: 500;
   }
 
   .link-share {
