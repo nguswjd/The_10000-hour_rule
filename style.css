@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  color: #29363D;
+  color: #fff;
   font-size: 16px;
 
   gap: 80px;
@@ -64,7 +64,6 @@ main {
 .definition p,
 .definition dfn {
   text-align: center;
-  color: #fff;
   font-weight: 700;
   font-size: 18px;
 }
@@ -79,7 +78,6 @@ main {
 
 .goal-survey p,
 .goal-survey p span {
-  color: #fff;
   font-size: 24px;
 }
 
@@ -108,7 +106,7 @@ main {
   border-radius: 12px;
   padding: 20px 50px;
 
-  box-shadow: 2px 4px 10px #00000026;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
   background-color: #FCEE21;
 
   position: relative;
@@ -116,7 +114,7 @@ main {
 
 .goal-survey button img {
   position: absolute;
-  transform: translate(90%);
+  transform: translateX(90%);
 }
 
 .result {
@@ -126,7 +124,6 @@ main {
 }
 
 .result p{
-  color: #fff;
   font-size: 24px;
   line-height: 72px;
 
@@ -138,7 +135,6 @@ main {
 } 
 
 .result p strong{
-  color: #fff;
   font-size: 72px;
 } 
 
@@ -148,12 +144,10 @@ main {
   justify-content: center;
 }
 
-.link-share li {
-  border-radius: 12px;
-  padding: 20px 50px;
-}
-
 .link-share li a{
+  display: block;
+  padding: 20px 50px;
+
   font-size: 24px;
   font-weight: 500;
   color: #5B2386;
@@ -161,10 +155,12 @@ main {
 
 .link-share li:first-child {
   background-color: #FCEE21;
+  border-radius: 12px;
 }
 
 .link-share li:last-child {
   background-color: #fff;
+  border-radius: 12px;
 }
 
 footer {
@@ -183,7 +179,6 @@ footer {
 }
 
 footer p{
-  color: #fff;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 12px;
@@ -211,10 +206,15 @@ footer p{
 
   border-radius: 20px;
   background: #FFF;
-  box-shadow: 4px 4px 30px 0px #00000026;
+  box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.15);
 }
 
-.ad-overlay p {
+.ad-overlay p:nth-of-type(2) {
+  margin-top: -20px;
+}
+
+.ad-overlay p,
+.ad-overlay .sr-noword  {
   color: #5B2386;
   text-align: center;
   font-family: "tvN Enjoystories";
@@ -223,11 +223,12 @@ footer p{
   font-weight: 700;
 }
 
-.ad-overlay p:first-child {
+.ad-overlay p:first-child,
+.ad-overlay .sr-noword {
   font-size: 96px;
 }
 
-.ad-overlay p:last-child {
+.ad-overlay p {
   font-size: 36px;
 }
 
@@ -235,10 +236,12 @@ footer p{
   margin-top: 40px;
   padding: 20px 50px;
   border-radius: 12px;
+
   background: #FCEE21;
   color: #5B2386;
+
   text-align: center;
-  box-shadow: 2px 4px 10px 0px #00000026;
+  box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.15);
 }
 
 .ad-overlay a ,
@@ -318,12 +321,9 @@ footer p{
     gap: 8px;
   }
 
-  .link-share li {
-    padding: 16px 24px;
-  }
-
   .link-share li a {
     font-size: 14px;
+    padding: 16px 24px;
   }
 
   footer {
@@ -373,6 +373,11 @@ footer p{
   }
 
   .sr-noword {
-    display: none;
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
   }
 }
