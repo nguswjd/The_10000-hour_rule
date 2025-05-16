@@ -90,11 +90,16 @@ main {
   text-align: center;
 }
 
+#job::placeholder,
+#hour::placeholder {
+  color: #BABCBE;
+}
+
 .goal-survey button,
 .goal-survey button span {
   color: #5B2386;
 
-  font-weight: 500;
+  font-weight: 700;
   font-size: 24px;
 }
 
@@ -145,7 +150,7 @@ main {
   padding: 20px 50px;
 
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   color: #5B2386;
 }
 
