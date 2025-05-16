@@ -96,9 +96,9 @@ main {
 }
 
 .goal-survey button,
-.goal-survey button span {
+.goal-survey button span,
+.link-share li a {
   color: #5B2386;
-
   font-weight: 700;
   font-size: 24px;
 }
@@ -148,10 +148,6 @@ main {
 .link-share li a{
   display: block;
   padding: 20px 50px;
-
-  font-size: 24px;
-  font-weight: 700;
-  color: #5B2386;
 }
 
 .link-share li:first-child,
@@ -314,7 +310,8 @@ footer p{
   }
 
   .goal-survey button,
-  .goal-survey button span {
+  .goal-survey button span,
+  .link-share li a  {
     font-size: 14px;
   }
 
@@ -349,7 +346,6 @@ footer p{
 
   .link-share li a {
     padding: 16px 24px;
-    font-size: 14px;
   }
 
   footer {
