@@ -21,6 +21,7 @@ input,
 button {
   cursor: pointer;
   font-family: inherit;
+  border: none;
 }
 
 input:focus {
