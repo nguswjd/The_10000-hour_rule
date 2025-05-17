@@ -7,27 +7,16 @@
 
 ## 프로젝트 구조
 📦The_10000-hour_rule  
-
 ┣ 📂image  
-
 ┃ ┣ 📜click-icon.png  
-
 ┃ ┣ 📜liket-img.png  
-
 ┃ ┣ 📜title.png  
-
 ┃ ┣ 📜weniv-logo.png  
-
 ┃ ┣ 📜“.png  
-
 ┃ ┗ 📜”.png  
-
 ┣ 📜README.md  
-
 ┣ 📜index.html  
-
 ┣ 📜reset.css  
-
 ┗ 📜style.css  
 
 ---
