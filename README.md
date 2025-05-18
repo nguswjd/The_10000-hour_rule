@@ -39,6 +39,7 @@
 ### Front-end
 <div>
   <img src="readme-image/HTMLCSS.png" width="80">
+  <img src="readme-image/jQuery.png" width="80">
 </div>
 
 ### Tools
@@ -90,5 +91,5 @@
 
 ## 개선 예정 사항
 - JavaScript를 통한 계산 기능 구현
-- JavaScript를 통한 배너 광고 기능 구현
+- 링크 이동 url 수정 (배너에 연결된 링크 포함)
 - 사용자 목표 입력 폼의 데이터 저장 방식 추가
