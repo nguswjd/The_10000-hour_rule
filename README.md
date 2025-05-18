@@ -29,8 +29,8 @@
 
 |광고 배너|
 |:---:|
-|<img src="readme-image/ad-overlay.png" width = "450px">|
-|사용자가 '훈련하러 가기' 링크를 클릭하면, '훈련 바로가기' 광고 배너가 <br>열립니다. (JavaScript 구현이 완료되지 않아 현재는 <br>`.sr-only` 클래스를 통해 비활성화되어 있으며, <br>시각적으로는 응원 메시지와 '훈련하러 가기' 링크가 포함되어 있습니다.)|
+|<img src="readme-image/ad-overlay.gif" width = "450px">|
+|사용자가 '훈련하러 가기' 링크를 클릭하면, '훈련 바로가기' 광고 배너가 <br>열립니다.|
 <br>
 
 ---
