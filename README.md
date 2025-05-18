@@ -1,27 +1,13 @@
 # The_10000-hour-rule
 > _1만 시간의 법칙_
 > "어떤 분야의 전문가가 되기 위해서는 최소한 1만 시간의 훈련이 필요하다."는 말을 바탕으로 한 자기계발 웹페이지입니다.
+<br>
 
 ---
 
-## 프로젝트 구조
-📦The_10000-hour_rule  
-┣ 📂image  
-┃ ┣ 📜click-icon.png  
-┃ ┣ 📜liket-img.png  
-┃ ┣ 📜title.png  
-┃ ┣ 📜weniv-logo.png  
-┃ ┣ 📜“.png  
-┃ ┗ 📜”.png   
-┣ 📂readme-image  
-┃ ┣ 📜ad-overlay.png  
-┃ ┣ 📜header.png    
-┃ ┣ 📜main-form.png  
-┃ ┗ 📜main-result.png  
-┣ 📜README.md  
-┣ 📜index.html  
-┣ 📜reset.css  
-┗ 📜style.css  
+## 배포 URL
+[https://nguswjd.github.io/The_10000-hour_rule/]
+<br>
 
 ---
 
@@ -45,28 +31,36 @@
 |:---:|
 |<img src="readme-image/ad-overlay.png">|
 |사용자가 '훈련하러 가기' 링크를 클릭하면, '훈련 바로가기' 광고 배너가 <br>열립니다. (JavaScript 구현이 완료되지 않아 현재는 <br>`.sr-only` 클래스를 통해 비활성화되어 있으며, <br>시각적으로는 응원 메시지와 '훈련하러 가기' 링크가 포함되어 있습니다.)|
+<br>
 
 ---
 
-## 배포 URL
-[https://nguswjd.github.io/The_10000-hour_rule/]
+## 기술 스택
+### Front-end
+<div>
+  <img src="readme-image/HTMLCSS.png" width="80">
+</div>
+
+### Tools
+<div>
+  <img src="readme-image/Github.png" width="80">
+  <img src="readme-image/Notion.png" width="80">
+</div>
+<br>
 
 ---
 
-## 개선 예정 사항
-- JavaScript를 통한 계산 기능 구현
-- JavaScript를 통한 배너 광고 기능 구현
-- 사용자 목표 입력 폼의 데이터 저장 방식 추가
+## 프로젝트 구조
+📦The_10000-hour_rule  
+┣ 📂image  
+┣ 📂readme-image  
+┣ 📜README.md  
+┣ 📜index.html  
+┣ 📜reset.css  
+┗ 📜style.css  
+<br>
 
----
-
-## 라이선스
-본 서비스 내 이미지 및 콘텐츠의 저작권은 **주식회사 위니브**에 있습니다.  
-무단 수정, 재배포, 도용 시 법적인 문제가 발생할 수 있습니다.
-
----
-
-## 사용된 이미지
+### 📂image
 - `title.png`  
   : 페이지 상단에 표시되는 **1만 시간의 법칙 로고** 이미지입니다.
 - `“.png`, `”.png`  
@@ -77,10 +71,9 @@
   : 하단 푸터에 표시되는 **위니브 로고** 이미지입니다.
 - `liket-img.png`  
   : 광고 배너에 등장하는 **응원 캐릭터 라이캣** 이미지입니다.
+<br>
 
----
-
-## 주요 클래스 및 ID 설명
+### 주요 클래스 및 ID 설명
 | 이름            | 종류  | 설명 |
 |----------------|-------|------|
 | `.logo`        | class | 헤더 로고 이미지에 사용되는 클래스 |
@@ -91,3 +84,11 @@
 | `.result-box`  | class | 결과 문장에서 동적으로 강조되는 부분 |
 | `.link-share`  | class | 훈련/공유 버튼을 포함하는 네비게이션 영역 |
 | `.sr-only`     | class | 화면에는 보이지 않지만 스크린리더에는 보이는 접근성 클래스 |
+<br>
+
+---
+
+## 개선 예정 사항
+- JavaScript를 통한 계산 기능 구현
+- JavaScript를 통한 배너 광고 기능 구현
+- 사용자 목표 입력 폼의 데이터 저장 방식 추가
