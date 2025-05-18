@@ -52,6 +52,7 @@
 ---
 
 ## 🧬 프로젝트 구조
+```
 📦The_10000-hour_rule  
 ┣ 📂css
 ┣ 📂image  
@@ -59,6 +60,8 @@
 ┣ 📂readme-image 
 ┣ 📜index.html    
 ┗ 📜README.md
+```
+
 <br>
 
 ### 📂image
