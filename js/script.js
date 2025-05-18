@@ -4,10 +4,10 @@ let clickLink = $('.ad-overlay a');
 
 goLink.click(function(e){
   e.preventDefault();
-  adOverlay.removeClass('sr-only');
+  adOverlay.removeClass('hidden');
 });
 
 clickLink.click(function(e){
-  adOverlay.addClass('sr-only');
+  adOverlay.addClass('hidden');
 });
 
