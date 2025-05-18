@@ -12,7 +12,12 @@
 ┃ ┣ 📜title.png  
 ┃ ┣ 📜weniv-logo.png  
 ┃ ┣ 📜“.png  
-┃ ┗ 📜”.png  
+┃ ┗ 📜”.png   
+┣ 📂readme-image  
+┃ ┣ 📜ad-overlay.png  
+┃ ┣ 📜header.png    
+┃ ┣ 📜main-form.png  
+┃ ┗ 📜main-result.png  
 ┣ 📜README.md  
 ┣ 📜index.html  
 ┣ 📜reset.css  
