@@ -54,9 +54,13 @@
 ## 🧬 프로젝트 구조
 ```
 📦The_10000-hour_rule  
-┣ 📂css
+┣ 📂css  
 ┣ 📂image  
-┣ 📂js
+┃ ┣ 📜index.html  
+┃ ┣ 📜style.html   
+┣ 📂js  
+┃ ┣ 📜jquery.html  
+┃ ┣ 📜script.html  
 ┣ 📂readme-image 
 ┣ 📜index.html    
 ┗ 📜README.md
