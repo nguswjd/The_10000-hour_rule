@@ -249,7 +249,7 @@ footer p{
   font-weight: 700;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .line-break {
     display: inline-block;
   }
